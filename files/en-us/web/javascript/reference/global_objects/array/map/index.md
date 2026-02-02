@@ -295,3 +295,10 @@ You can also use {{jsxref("Array.from()")}} to transform `elems` to an array, an
 - {{jsxref("Array.from()")}}
 - {{jsxref("TypedArray.prototype.map()")}}
 - {{jsxref("Map")}}
+
+### Example: Doubling numbers
+
+```js
+const numbers = [1, 2, 3, 4];
+const doubled = numbers.map(n => n * 2);
+console.log(doubled); // [2, 4, 6, 8]
